@@ -1,5 +1,5 @@
 {
-  "name": "@variantjs/vue",
+  "name": "@maxim-art/vue",
   "version": "0.0.17",
   "description": "Vue VariantJS: Fully configurable Vue 3 components styled with TailwindCSS",
   "files": [
@@ -26,7 +26,7 @@
   "author": "Alfonso Bribiesca <alfonso@vexilo.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/variantjs/vue"
+    "url": "git+https://github.com/Maxim-art/vue"
   },
   "license": "MIT",
   "private": false,
