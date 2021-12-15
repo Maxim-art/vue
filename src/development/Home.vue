@@ -12,6 +12,7 @@
       v-model="model"
       placeholder="My placeholder"
       type="text"
+      variant="myCustom"
     />
     <t-textarea
       v-model="model"
@@ -113,7 +114,13 @@ export default defineComponent({
     provide<VariantJSConfiguration>('configuration', {
       TSubmit: {
         type: 'submit',
-        classes: 'block px-4 py-2 text-white transition duration-100 ease-in-out bg-red-500 border border-transparent rounded shadow-sm hover:bg-red-600 focus:border-red-500 focus:ring-2 focus:ring-red-500 focus:outline-none focus:ring-opacity-50 disabled:opacity-50 disabled:cursor-not-allowed',
+        classes:
+          'block px-4 py-2 text-white transition duration-100 ease-in-out bg-red-500 border border-transparent rounded shadow-sm hover:bg-red-600 focus:border-red-500 focus:ring-2 focus:ring-red-500 focus:outline-none focus:ring-opacity-50 disabled:opacity-50 disabled:cursor-not-allowed',
+      },
+      TInput: {
+        variants: {
+          myCustom: { classes: 'block w-full py-4' },
+        },
       },
     });
   },
@@ -123,9 +130,7 @@ export default defineComponent({
       radioValue: '1',
       model: '',
       options: [
-        'Option A',
-        'Option B',
-        'Option C',
+        'Option A', 'Option B', 'Option C',
       ],
     };
   },
