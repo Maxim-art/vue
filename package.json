@@ -1,5 +1,5 @@
 {
-  "name": "@maxim-art/vue",
+  "name": "@maxpike/vue",
   "version": "0.0.17",
   "description": "Vue VariantJS: Fully configurable Vue 3 components styled with TailwindCSS",
   "files": [
@@ -26,7 +26,7 @@
   "author": "Alfonso Bribiesca <alfonso@vexilo.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Maxim-art/vue"
+    "url": "git+https://github.com/Maxim-art/vue.git"
   },
   "license": "MIT",
   "private": false,
@@ -94,5 +94,9 @@
   },
   "dependencies": {
     "@variantjs/core": "^0.0.78"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/Maxim-art/vue/issues"
+  },
+  "homepage": "https://github.com/Maxim-art/vue#readme"
 }
